@@ -37,7 +37,7 @@ venv.bak/
 
 # Log files
 *.log
-support_bot_log.txt
+
 
 # IDE files
 .idea/

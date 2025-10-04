@@ -1,0 +1,51 @@
+2025-10-04 14:44:30,595 - INFO - Initializing SupportBotAgent with document: data/faq.txt
+2025-10-04 14:44:30,596 - INFO - Successfully loaded document: data/faq.txt
+2025-10-04 14:44:30,776 - INFO - Use pytorch device_name: cpu
+2025-10-04 14:44:30,776 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-04 14:44:34,298 - INFO - Loading faiss with AVX512 support.
+2025-10-04 14:44:34,298 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-10-04 14:44:34,299 - INFO - Loading faiss with AVX2 support.
+2025-10-04 14:44:34,320 - INFO - Successfully loaded faiss with AVX2 support.
+2025-10-04 14:44:38,291 - INFO - Pipeline setup complete.
+2025-10-04 14:44:38,291 - INFO - --- New Query Processing Started: 'How can I reset my password?' ---
+2025-10-04 14:44:38,292 - INFO - Received query: 'How can I reset my password?'
+2025-10-04 14:44:38,355 - INFO - Generated answer: 'go to the login page'
+2025-10-04 14:44:38,356 - INFO - Simulated feedback received: 'too vague'
+2025-10-04 14:44:38,356 - INFO - Adjusting response based on feedback: 'too vague'
+2025-10-04 14:44:38,364 - INFO - Simulated feedback received: 'not helpful'
+2025-10-04 14:44:38,364 - INFO - Adjusting response based on feedback: 'not helpful'
+2025-10-04 14:44:38,364 - INFO - Rephrasing query to: 'Can you give me more details about: How can I reset my password?'
+2025-10-04 14:44:38,365 - INFO - Received query: 'Can you give me more details about: How can I reset my password?'
+2025-10-04 14:44:38,418 - INFO - Generated answer: 'go to the login page'
+2025-10-04 14:44:38,419 - INFO - --- Query Processing Finished for: 'How can I reset my password?' ---
+2025-10-04 14:44:38,419 - INFO - --- New Query Processing Started: 'What is the refund policy?' ---
+2025-10-04 14:44:38,419 - INFO - Received query: 'What is the refund policy?'
+2025-10-04 14:44:38,458 - INFO - Generated answer: 'We offer refunds within 30 days of purchase'
+2025-10-04 14:44:38,459 - INFO - Simulated feedback received: 'too vague'
+2025-10-04 14:44:38,459 - INFO - Adjusting response based on feedback: 'too vague'
+2025-10-04 14:44:38,469 - INFO - Simulated feedback received: 'not helpful'
+2025-10-04 14:44:38,469 - INFO - Adjusting response based on feedback: 'not helpful'
+2025-10-04 14:44:38,469 - INFO - Rephrasing query to: 'Can you give me more details about: What is the refund policy?'
+2025-10-04 14:44:38,469 - INFO - Received query: 'Can you give me more details about: What is the refund policy?'
+2025-10-04 14:44:38,515 - INFO - Generated answer: 'We offer refunds within 30 days of purchase'
+2025-10-04 14:44:38,516 - INFO - --- Query Processing Finished for: 'What is the refund policy?' ---
+2025-10-04 14:44:38,516 - INFO - --- New Query Processing Started: 'How do I contact customer support?' ---
+2025-10-04 14:44:38,516 - INFO - Received query: 'How do I contact customer support?'
+2025-10-04 14:44:38,559 - INFO - Generated answer: 'Email us at support@example.com'
+2025-10-04 14:44:38,559 - INFO - Simulated feedback received: 'too vague'
+2025-10-04 14:44:38,559 - INFO - Adjusting response based on feedback: 'too vague'
+2025-10-04 14:44:38,567 - INFO - Simulated feedback received: 'not helpful'
+2025-10-04 14:44:38,567 - INFO - Adjusting response based on feedback: 'not helpful'
+2025-10-04 14:44:38,568 - INFO - Rephrasing query to: 'Can you give me more details about: How do I contact customer support?'
+2025-10-04 14:44:38,568 - INFO - Received query: 'Can you give me more details about: How do I contact customer support?'
+2025-10-04 14:44:38,613 - INFO - Generated answer: 'support@example.com'
+2025-10-04 14:44:38,614 - INFO - --- Query Processing Finished for: 'How do I contact customer support?' ---
+2025-10-04 14:44:38,614 - INFO - --- New Query Processing Started: 'How do I fly to the moon?' ---
+2025-10-04 14:44:38,614 - INFO - Received query: 'How do I fly to the moon?'
+2025-10-04 14:44:38,623 - WARNING - No relevant context found for query: 'How do I fly to the moon?'. Best match score was too high.
+2025-10-04 14:44:38,624 - INFO - Simulated feedback received: 'too vague'
+2025-10-04 14:44:38,624 - INFO - Adjusting response based on feedback: 'too vague'
+2025-10-04 14:44:38,634 - INFO - Simulated feedback received: 'good'
+2025-10-04 14:44:38,634 - INFO - Feedback was 'good'. Ending feedback loop.
+2025-10-04 14:44:38,634 - INFO - --- Query Processing Finished for: 'How do I fly to the moon?' ---
